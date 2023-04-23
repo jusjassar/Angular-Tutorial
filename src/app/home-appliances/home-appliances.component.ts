@@ -19,7 +19,10 @@ export class HomeAppliancesComponent implements OnInit {
       private route:ActivatedRoute) { }
   
     ngOnInit() {
-     
+      
+        // this.allSrvc.getProducts().then(data=>{
+        //   this.productsList = data;
+        // })
       this.productsList = this.route.snapshot.data['resolvedProducts'];
       console.log(this.productsList)
     }
