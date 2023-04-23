@@ -19,16 +19,7 @@ export class HomeAppliancesComponent implements OnInit {
       private route:ActivatedRoute) { }
   
     ngOnInit() {
-      // for( let product of this.allSrvc.products){
-      //   if(product.pDepartId === 103 ){
-      //     this.productsList.push(product)
-      //   }else{
-      //     console.log("Error fetching Product List")
-      //   }
-      // }
-        // this.allSrvc.getProducts().then(data=>{
-        //   this.productsList = data;
-        // })
+     
       this.productsList = this.route.snapshot.data['resolvedProducts'];
       console.log(this.productsList)
     }
