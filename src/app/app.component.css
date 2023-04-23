@@ -1,0 +1,11 @@
+p {
+  font-family: Lato;
+}
+ul {
+  padding: 10px;
+  background-color: bisque;
+}
+li{
+  display: inline;
+  margin-left: 20px;
+}

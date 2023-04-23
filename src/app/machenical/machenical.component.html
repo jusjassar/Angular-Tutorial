@@ -1,0 +1,14 @@
+<h2>MechaniCal Products</h2>
+<table>
+  <table>
+    <tr>
+      <th>Product Name</th>
+      <th>Product Price</th>
+      <th>Product Description</th>
+    </tr>
+    <tr *ngFor="let ele_product of productsList">
+      <td>{{ele_product.pName}}</td>
+      <td>{{ele_product.pPrice}}</td>
+      <td>{{ele_product.pDes}}</td>
+    </tr>
+</table>
